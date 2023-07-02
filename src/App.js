@@ -1,11 +1,27 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from "react";
 import './App.css';
 
-function App() {
+const App = () => {
+
+  const [products, setProducts] = useState([])
+
+  const fetchUserData = () => {
+    fetch("https://shopping.josdem.io/products/")
+      .then(response => {
+        return response.json()
+      })
+      .then(products => {
+        setProducts(products)
+      })
+  }
+
+  useEffect(() => {
+    fetchUserData()
+  }, [])
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -18,6 +34,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+      {products.length > 0 && (
+        <ul>
+          {products.map(product => (
+            <li>{product.name}</li>
+          ))}
+        </ul>
+      )}
+    </div>
     </div>
   );
 }
