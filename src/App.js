@@ -5,7 +5,7 @@ const App = () => {
 
   const [products, setProducts] = useState([])
 
-  const fetchUserData = () => {
+  const fetchProducts = () => {
     fetch("https://shopping.josdem.io/products/")
       .then(response => {
         return response.json()
@@ -16,7 +16,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    fetchUserData()
+    fetchProducts()
   }, [])
   
   return (
