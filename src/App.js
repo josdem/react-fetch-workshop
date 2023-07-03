@@ -1,24 +1,7 @@
-import React, { useEffect, useState } from "react";
 import './App.css';
+import ProductList from './components/ProductList';
 
-const App = () => {
-
-  const [products, setProducts] = useState([])
-
-  const fetchProducts = () => {
-    fetch("https://shopping.josdem.io/products/")
-      .then(response => {
-        return response.json()
-      })
-      .then(products => {
-        setProducts(products)
-      })
-  }
-
-  useEffect(() => {
-    fetchProducts()
-  }, [])
-  
+const App = () => {  
   return (
     <div className="App">
       <header className="App-header">
@@ -34,15 +17,7 @@ const App = () => {
           Learn React
         </a>
       </header>
-      <div>
-      {products.length > 0 && (
-        <ul>
-          {products.map(product => (
-            <li>{product.name}</li>
-          ))}
-        </ul>
-      )}
-    </div>
+      <ProductList/>
     </div>
   );
 }
