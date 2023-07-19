@@ -19,3 +19,9 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run format`
+
+Formats all the project's files using Prettier, a code formatter.
+Prettier adheres to the configuration specified in the `.prettierrc` file.
+You can exclude certain files from formatting using the `.prettierignore` file.
