@@ -1,6 +1,7 @@
 {
-  "name": "react-fetch-workshop",
+  "name": "sneakers-world-shopping",
   "version": "0.1.0",
+  "contributors": ["josdem", "felixmaathz"],
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
