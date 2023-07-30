@@ -12,7 +12,7 @@ export default function ProductList() {
     }, []);
 
     return (
-        <div className='grid grid-cols-4 gap-5'>
+        <div data-testid='product-list' className='grid grid-cols-4 gap-5'>
             {products.map((product) => (
                 <div key={product.sku}>
                     <div className='flex'>
