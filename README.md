@@ -1,5 +1,7 @@
-React fetch API workshop
+Sneakers World Shopping
 ----------------------------------------------
+
+[React](https://react.dev/) sample application having sneakers as demo product to build a shoping e-commerce platform.
 
 ## Available Scripts
 
@@ -29,3 +31,5 @@ You can exclude certain files from formatting using the `.prettierignore` file.
 ### `npm run test`
 
 Runs all tests in interactive format.
+
+**Note:** This project consumes [shopping-cart-service](https://github.com/josdem/shopping-cart-service) as [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API.
