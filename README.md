@@ -25,3 +25,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Formats all the project's files using Prettier, a code formatter.
 Prettier adheres to the configuration specified in the `.prettierrc` file.
 You can exclude certain files from formatting using the `.prettierignore` file.
+
+### `npm run test`
+
+Runs all tests in interactive format.
