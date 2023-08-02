@@ -16,10 +16,10 @@ export default function ProductList() {
             {products.map((product) => (
                 <div key={product.sku}>
                     <div className='flex'>
-                        <a>{product.name}</a>
+                        <p>{product.name}</p>
                     </div>
                     <div className='flex-end'>
-                        <a>{currency.format(product.price)}</a>
+                        <p>{currency.format(product.price)}</p>
                     </div>
                 </div>
             ))}
