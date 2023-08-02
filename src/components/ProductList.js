@@ -15,12 +15,8 @@ export default function ProductList() {
         <div data-testid='product-list' className='grid grid-cols-4 gap-5'>
             {products.map((product) => (
                 <div key={product.sku}>
-                    <div className='flex'>
-                        <a>{product.name}</a>
-                    </div>
-                    <div className='flex-end'>
-                        <a>{currency.format(product.price)}</a>
-                    </div>
+                    <div className='flex'>{product.name}</div>
+                    <div className='flex-end'>{currency.format(product.price)}</div>
                 </div>
             ))}
         </div>
