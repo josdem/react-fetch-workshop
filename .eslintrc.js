@@ -24,6 +24,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
+  plugins: ["jsx-a11y"],
   rules: {
     "linebreak-style": ["error", "windows"],
     indent: ["error", 2],

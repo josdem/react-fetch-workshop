@@ -1,4 +1,4 @@
-import { getProducts } from "./mocks/mockFetch";
+import getProducts from "./mocks/mockFetch";
 
 describe("getting products", () => {
   it("should get all products", () => {

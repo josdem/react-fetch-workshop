@@ -1,4 +1,4 @@
-export const getProducts = () => [
+const getProducts = () => [
   {
     sku: 100,
     name: "Nike Air Max 2023",
@@ -10,3 +10,5 @@ export const getProducts = () => [
     price: 110,
   },
 ];
+
+export default getProducts;
