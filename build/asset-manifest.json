@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.bf00d734.css",
-    "main.js": "/build/static/js/main.871549eb.js",
-    "static/js/787.3689c09e.chunk.js": "/build/static/js/787.3689c09e.chunk.js",
-    "index.html": "/build/index.html",
-    "main.bf00d734.css.map": "/build/static/css/main.bf00d734.css.map",
-    "main.871549eb.js.map": "/build/static/js/main.871549eb.js.map",
-    "787.3689c09e.chunk.js.map": "/build/static/js/787.3689c09e.chunk.js.map"
+    "main.css": "/sneakers-world-shopping/static/css/main.bf00d734.css",
+    "main.js": "/sneakers-world-shopping/static/js/main.53f41975.js",
+    "static/js/787.3928d1a3.chunk.js": "/sneakers-world-shopping/static/js/787.3928d1a3.chunk.js",
+    "index.html": "/sneakers-world-shopping/index.html",
+    "main.bf00d734.css.map": "/sneakers-world-shopping/static/css/main.bf00d734.css.map",
+    "main.53f41975.js.map": "/sneakers-world-shopping/static/js/main.53f41975.js.map",
+    "787.3928d1a3.chunk.js.map": "/sneakers-world-shopping/static/js/787.3928d1a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf00d734.css",
-    "static/js/main.871549eb.js"
+    "static/js/main.53f41975.js"
   ]
 }
