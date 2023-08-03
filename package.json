@@ -6,7 +6,7 @@
     "felixmaathz"
   ],
   "private": true,
-  "homepage": "https://josdem.github.io/",
+  "homepage": "https://josdem.github.io/sneakers-world-shopping",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
