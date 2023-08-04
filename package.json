@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "contributors": [
     "josdem",
-    "felixmaathz"
+    "felixmaathz",
+    "VanshVg"
   ],
   "private": true,
   "homepage": "https://josdem.github.io/sneakers-world-shopping",
@@ -21,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json,scss} --config ./.prettierrc"
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json,scss} --config ./.prettierrc",
+    "lint": "eslint . --ext .js"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +44,12 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "jest": "^27.5.1",
     "prettier": "3.0.0"
   }

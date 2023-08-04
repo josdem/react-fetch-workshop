@@ -28,6 +28,11 @@ Formats all the project's files using Prettier, a code formatter.
 Prettier adheres to the configuration specified in the `.prettierrc` file.
 You can exclude certain files from formatting using the `.prettierignore` file.
 
+
+### `npm run lint`
+
+Apply [ESLint](https://eslint.org/) validation with [a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) plugin
+
 ### `npm run test`
 
 Runs all tests in interactive format.
