@@ -11,7 +11,7 @@ const response = [
   },
 ];
 
-export default async function mockFetch(url) {
+export default async function mockFetch() {
   return {
     ok: true,
     status: 200,

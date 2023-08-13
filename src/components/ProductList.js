@@ -12,11 +12,11 @@ export default function ProductList() {
   }, []);
 
   return (
-    <div data-testid='product-list' className='grid grid-cols-4 gap-5'>
+    <div data-testid="product-list" className="grid grid-cols-4 gap-5">
       {productsList.map((product) => (
         <div key={product.sku}>
-          <div className='flex'>{product.name}</div>
-          <div className='flex-end'>{currency.format(product.price)}</div>
+          <div className="flex">{product.name}</div>
+          <div className="flex-end">{currency.format(product.price)}</div>
         </div>
       ))}
     </div>
