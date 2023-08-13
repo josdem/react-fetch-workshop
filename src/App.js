@@ -10,9 +10,7 @@ const App = () => (
     </header>
     <ProductList />
     <footer className="App-footer">
-      <a
-        href={`mailto:${constants.email}?subject=${constants.subject}&body=${constants.body}`}
-      >
+      <a href={`mailto:${constants.email}?subject=${constants.subject}&body=${constants.body}`}>
         Contact Us
       </a>
     </footer>

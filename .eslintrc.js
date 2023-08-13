@@ -28,7 +28,6 @@ module.exports = {
   rules: {
     indent: ["error", 2],
     quotes: ["error", "double"],
-    "space-before-function-paren": ["error", "always"],
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "arrow-body-style": ["error", "as-needed"],
     "react/function-component-definition": "off",
