@@ -4,12 +4,8 @@ import App from "./App";
 
 test("renders app components", () => {
   render(<App />);
-  const title = screen.getByText("Sneakers World Shopping");
-  expect(title).toBeInTheDocument();
-  const header = screen.getByTestId("header");
-  expect(header).toBeInTheDocument();
-  const productList = screen.getByTestId("product-list");
-  expect(productList).toBeInTheDocument();
-  const footer = screen.getByTestId("footer");
-  expect(footer).toBeInTheDocument();
+  expect(screen.getByText("Sneakers World Shopping")).toBeInTheDocument();
+  expect(screen.getByTestId("header")).toBeInTheDocument();
+  expect(screen.getByTestId("product-list")).toBeInTheDocument();
+  expect(screen.getByTestId("footer")).toBeInTheDocument();
 });
