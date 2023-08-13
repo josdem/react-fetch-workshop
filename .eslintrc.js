@@ -26,7 +26,6 @@ module.exports = {
   },
   plugins: ["jsx-a11y"],
   rules: {
-    "linebreak-style": ["error", "windows"],
     indent: ["error", 2],
     quotes: ["error", "double"],
     "space-before-function-paren": ["error", "always"],
