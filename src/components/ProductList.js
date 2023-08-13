@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { getProducts, currency } from '../products';
 
 export default function ProductList() {
-    const [productsList, setProductsList] = useState([]);
+  const [productsList, setProductsList] = useState([]);
 
     useEffect(() => {
         getProducts().then((products) => {
