@@ -5,11 +5,11 @@ import ProductList from "./components/ProductList";
 
 const App = () => (
   <div className="App">
-    <header className="App-header">
+    <header data-testid="header" className="App-header">
       <p>Sneakers World Shopping</p>
     </header>
     <ProductList />
-    <footer className="App-footer">
+    <footer data-testid="footer" className="App-footer">
       <a href={`mailto:${constants.email}?subject=${constants.subject}&body=${constants.body}`}>
         Contact Us
       </a>
