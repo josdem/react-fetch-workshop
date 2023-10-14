@@ -5,7 +5,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ["airbnb", "plugin:react/recommended"],
+  extends: ["plugin:react/recommended"],
   ignorePatterns: ["build/"],
   overrides: [
     {
@@ -27,6 +27,7 @@ module.exports = {
   plugins: ["jsx-a11y"],
   rules: {
     indent: ["error", 2],
+    semi: ["error", "always"],
     quotes: ["error", "double"],
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "arrow-body-style": ["error", "as-needed"],
