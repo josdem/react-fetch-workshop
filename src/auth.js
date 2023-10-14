@@ -3,7 +3,7 @@ import { Buffer } from "buffer";
 const client_id = "client";
 const client_secret = "secret";
 
-const url = "https://auth.josdem.io/oauth2/token";
+const url = "http://auth-server:9000/oauth2/token";
 
 export const getToken = () => 
   fetch(url, {
