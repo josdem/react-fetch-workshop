@@ -1,4 +1,4 @@
-const SERVER_URL = "https://shopping.josdem.io/products/";
+const SERVER_URL = "http://localhost:8085/products/";
 
 export const getProducts = () => fetch(SERVER_URL).then((response) => response.json());
 

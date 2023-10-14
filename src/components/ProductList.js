@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 
 import { getProducts, currency } from "../products";
+import { getToken } from "../auth";
 
 export default function ProductList() {
   const [productsList, setProductsList] = useState([]);
 
   useEffect(() => {
     getProducts().then((products) => {
+      console.log("products: "  + JSON.stringify(products));
+      console.log("token: "  + JSON.stringify(getToken()));
       setProductsList(products);
     });
   }, []);
