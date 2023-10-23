@@ -1,9 +1,17 @@
+/*
+curl -X POST https://auth.josdem.io/oauth2/token \
+  --header "application/x-www-form-urlencoded" \
+  --header "Authorization: Basic Y2xpZW50OnNlY3JldA==" \
+  --data "grant_type=client_credentials" \
+  --data "scope=write"
+*/
+
 import { Buffer } from "buffer";
 
 const client_id = "client";
 const client_secret = "secret";
 
-const url = "http://auth-server:9000/oauth2/token";
+const url = "https://auth.josdem.io/oauth2/token";
 
 export const getToken = () => 
   fetch(url, {
